@@ -1,0 +1,38 @@
+/* Set the background color */
+body {
+  background-color: #f8e0e0; /* Very soft pink color */
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Center the header text */
+header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Style the clickable tabs */
+.tabs {
+  display: flex;
+  background-color: #fff;
+  padding: 10px 0;
+}
+
+.tab {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.tab:hover {
+  background-color: #f2f2f2;
+}
+
+/* Hide form containers by default */
+.form-container {
+  display: none;
+}
+
+/* Rest of your existing styles */
+/* ... */
