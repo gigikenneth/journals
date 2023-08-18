@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Gigi's Journals</title>
+</head>
+<body>
+<header>
+    <h1>Gigi's Journals</h1>
+    <p>A place to capture my daily & weekly moments of gratitude and reflection.</p>
+  </header>
+
+  <div class="tabs">
+    <div class="tab" onclick="openForm('morningForm')">Morning</div>
+    <div class="tab" onclick="openForm('eveningForm')">Evening</div>
+    <div class="tab" onclick="openForm('weeklyForm')">Weekly</div>
+  </div>
+
+  <div id="morningForm" class="form-container">
+    <iframe style="border:none;width:100%;" height="750px" src="https://noteforms.com/forms/gigis-gratitude-journal-morning-oguidm"></iframe>
+  </div>
+
+  <div id="eveningForm" class="form-container">
+    <iframe style="border:none;width:100%;" height="750px" src="https://noteforms.com/forms/gigis-gratitude-journal-evening-tjmreb"></iframe>
+  </div>
+
+  <div id="weeklyForm" class="form-container">
+    <iframe style="border:none;width:100%;" height="750px" src="https://noteforms.com/forms/accountability-form-0xrghn"></iframe>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
